@@ -1,0 +1,6 @@
+uvicorn
+nest_asyncio
+pyngrok
+dotenv
+fastapi
+monday

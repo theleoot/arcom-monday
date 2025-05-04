@@ -2,7 +2,7 @@ import os
 import sqlite3
 
 class DatabaseSetup:
-    def __init__(self, db_name="C:/Users/leonardo.tiago/OneDrive - Arcom SA/Área de Trabalho/PROJECTS/Monday Integration/CODE/database/database/monday.db"):
+    def __init__(self, db_name="./database/database/monday.db"):
         self.connection = sqlite3.connect(db_name)
         self.cursor = self.connection.cursor()
         self.create_tables()
