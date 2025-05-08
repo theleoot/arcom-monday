@@ -1,0 +1,1 @@
+from database.migrations.customers import CustomersMigration

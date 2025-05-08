@@ -1,0 +1,26 @@
+# TABLES UPDATED FROM SERVER
+
+Name
+Responsável (multiple_person_mkpp7q97) -> "Código Id Monday"
+Código do Cliente (numeric_mkqfswdp)
+Código da Rede (numeric_mkqfj2fw)
+Código Associação (numeric_mkqffepp)
+Associação (dropdown_mkqf91nc)
+Nome Associação (text_mkqgawwm)
+Ramo de Atividade (text_mkqqn3jd)
+
+# Monday -> Iternal (Columns Relation)
+
+# Board
+board_id: int
+board_name: string
+
+# GROUP
+
+# Mapping Columns
+board_id: int
+column_id: int
+column_name: string
+
+
+
